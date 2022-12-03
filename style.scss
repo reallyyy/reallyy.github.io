@@ -25,8 +25,7 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 740px;
-  padding: 0 10px;
+  padding: 0 00px;
   width: 100%;
 }
 
@@ -132,15 +131,16 @@ img {
 
 // Nicolas Gallagher's micro clearfix hack
 // http://nicolasgallagher.com/micro-clearfix-hack/
-.clearfix:before,
-.clearfix:after {
-    content: " ";
-    display: table;
-}
+// .clearfix:before,
+// .clearfix:after {
+//     content: " ";
+//     display: table;
+// }
 
-.clearfix:after {
-    clear: both;
-}
+// .clearfix:after {
+//     clear: both;
+// }
+
 
 /*********************/
 /* LAYOUT / SECTIONS */
@@ -150,71 +150,101 @@ img {
 // .masthead
 //
 
+
+
 .wrapper-masthead {
-  margin-bottom: 50px;
+  width: 100%;
 }
 
 .masthead {
-  padding: 20px 0;
-  border-bottom: 1px solid $lightGray;
-
-  @include mobile {
-    text-align: center;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 100%;
+  @media screen and (min-width: 46em){
+    display: flex
   }
 }
 
-.site-avatar {
-  float: left;
-  width: 70px;
-  height: 70px;
-  margin-right: 15px;
+.bg-image{
+  // background-blend-mode: darken;
+  aspect-ratio: 16/9;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  @media screen and (min-width: 46em){
+    min-height: 100vh;
+    background-attachment: fixed;
+    overflow:auto;
+  }    
+}
 
-  @include mobile {
-    float: none;
-    display: block;
+.site-description-wrapper {
+  @media screen and (max-width: 46em) {
+    border-bottom: 1px solid #000000;
+  }
+  @media all {
+    margin: 0 auto 1.6em;
+    width: 100%;
+    position: relative;
+  }
+  @media screen and (min-width: 46em){
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: 2; 
+  }
+  @media screen and (min-width: 58em) {
     margin: 0 auto;
   }
-
-  img {
-    border-radius: 5px;
-  }
-}
-
-.site-info {
-  float: left;
-
-  @include mobile {
-    float: none;
-    display: block;
-    margin: 0 auto;
-  }
-}
-
-.site-name {
-  margin: 0;
-  color: $darkGray;
-  cursor: pointer;
-  font-family: $helveticaNeue;
-  font-weight: 300;
-  font-size: 28px;
-  letter-spacing: 1px;
 }
 
 .site-description {
-  margin: -5px 0 0 0;
-  color: $gray;
-  font-size: 16px;
-
-  @include mobile {
-    margin: 3px 0;
+  @media all {
+    box-sizing: inherit;
+    text-align: center;
+    line-height: 1.4;
+    color: #000000;
+    font-size: 18px;
+    font-size: 1.125rem;
+    font-family: "Alegreya",serif;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0;
+    margin: 20px;
   }
+
+  @media screen and (min-width: 46em) {
+    font-size: 32px;
+    color: #e8e9ea;
+    }
+    @media screen and (min-width:58em){
+    font-size:47.12px;
+    color: #e8e9ea;
+    }
 }
+  // letter-spacing: calc(8px +1.25vw + 1.25vh)/40;
+  // font-family: $helveticaNeue;
+  // font-weight: 300;
+  // font-size: calc(8px + 1.25vw + 1.25vh);
+  // color: #ddd;
+  // @include mobile {
+  //   margin: 3px 0;
+  //   float: none;
+  //   display: block;
+  //   margin: 0 auto;
 
 nav {
-  float: right;
-  margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $helveticaNeue;
+  position: absolute;
+  top: 8px;
+  right: 16px;
   font-size: 18px;
+  font-family: $helveticaNeue;
 
   @include mobile {
     float: none;
@@ -281,6 +311,36 @@ nav {
 footer {
   padding: 20px 0;
   text-align: center;
+}
+// Go-to-top button
+.scrollToTopBtn {
+  background-color: black;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 48px;
+  // width: 48px;
+  height           : 3.2rem;
+  width            : 3.2rem;
+  border-radius    : 50%;
+  /* place it at the bottom right corner */
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  /* keep it at the top of everything else */
+  z-index: 100;
+  /* hide with opacity */
+  opacity: 0;
+  /* also add a translate effect */
+  transform: translateY(100px);
+  /* and a transition */
+  transition : all 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.showBtn {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS

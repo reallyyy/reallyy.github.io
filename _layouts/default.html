@@ -13,24 +13,29 @@
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+         
+    <!-- jQuery -->
+    <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js'></script>
+    <!-- Random Background JS -->
+    <script src="{{ site.baseurl }}/js/main.js"></script>
+
   </head>
 
   <body>
     <div class="wrapper-masthead">
       <div class="container">
-        <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
-
-          <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description">{{ site.description }}</p>
+        <!-- <header class="masthead clearfix"> -->
+          <div class ="masthead">
+            <div class="bg-image"></div>
+            <div class="site-description-wrapper"><!-- The floating word on the background -->
+                <p class="site-description">Time is an illusion that helps things make sense.<br>
+                  So we are always living in the present tense</p>
+            </div>
+            <nav> <!-- Navigation bar -->
+              <a href="{{ site.baseurl }}/">Blog</a>
+              <a href="{{ site.baseurl }}/about">About</a>
+            </nav>
           </div>
-
-          <nav>
-            <a href="{{ site.baseurl }}/">Blog</a>
-            <a href="{{ site.baseurl }}/about">About</a>
-          </nav>
-        </header>
       </div>
     </div>
 
@@ -42,10 +47,19 @@
       <div class="container">
         <footer class="footer">
           {% include svg-icons.html %}
+          <button class="scrollToTopBtn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="48" viewBox="0 0 24 24" style="fill: rgb(255, 255, 255);transform: ;msFilter:;"><path d="M6 4h12v2H6zm5 10v6h2v-6h5l-6-6-6 6z"></path></svg>
+          </button>
         </footer>
       </div>
     </div>
 
+    
+    <!-- Java Script
+   ================================================== -->
+    <script src="{{ site.baseurl }}/js/jquery-3.2.1.min.js"></script>
+    <script src="{{ site.baseurl }}/js/main.js"></script>
     {% include analytics.html %}
+
   </body>
 </html>
