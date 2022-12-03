@@ -1,16 +1,16 @@
 var bgm = [
-  "images/bgimages/alina-perekatenkova-b4YiCHrq5BA-unsplash.jpg",
-  "images/bgimages/alina-perekatenkova-KINhsjQU1Ok-unsplash.jpg",
-  "images/bgimages/kalis-munggaran-pSCUPR1UTKU-unsplash.jpg",
-  "images/bgimages/krzysztof-hepner-AETM-AN2n_U-unsplash.jpg",
-  "images/bgimages/krzysztof-hepner-n4MUofqcFGg-unsplash.jpg",
-  "images/bgimages/pramod-tiwari-eDdFzt28n-I-unsplash.jpg",
-  "images/bgimages/jakob-dalbjorn-zowMdVTxo3Q-unsplash.jpg"
+  "raw.githubusercontent.com/reallyyy/reallyyy.github.io/master/images/bgimages/alina-perekatenkova-b4YiCHrq5BA-unsplash.jpg",
+  "raw.githubusercontent.com/reallyyy/reallyyy.github.io/master/images/bgimages/alina-perekatenkova-KINhsjQU1Ok-unsplash.jpg",
+  "raw.githubusercontent.com/reallyyy/reallyyy.github.io/master/images/bgimages/kalis-munggaran-pSCUPR1UTKU-unsplash.jpg",
+  "raw.githubusercontent.com/reallyyy/reallyyy.github.io/master/images/bgimages/krzysztof-hepner-AETM-AN2n_U-unsplash.jpg",
+  "raw.githubusercontent.com/reallyyy/reallyyy.github.io/master/images/bgimages/krzysztof-hepner-n4MUofqcFGg-unsplash.jpg",
+  "raw.githubusercontent.com/reallyyy/reallyyy.github.io/master/images/bgimages/pramod-tiwari-eDdFzt28n-I-unsplash.jpg",
+  "raw.githubusercontent.com/reallyyy/reallyyy.github.io/master/images/bgimages/jakob-dalbjorn-zowMdVTxo3Q-unsplash.jpg"
 ]
 
 var random_bg = Math.floor(Math.random() * bgm.length)
 $(document).ready(function() {
-  $(".bg-image").css("background-image", "linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ),url('/static/" + bgm[random_bg] + "')")
+  $(".bg-image").css("background-image", "linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ),url('" + bgm[random_bg] + "')")
 })
 
 
