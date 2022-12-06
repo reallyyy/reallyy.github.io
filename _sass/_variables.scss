@@ -4,24 +4,24 @@
 //
 // Colors
 $pastelOrange: #f4e7d1;
-$pastelBlue:#AEC6CF;
+$pastelBlue:#A7C7E7;
 $red:#D72638;
 
 // Grays
 $black: #1D1E18;
-$oxfordBlue:#1D1E18;
+$oxfordBlue:#1d1e18ca;
 $lighterBlack:$black;
 $gray:#000022d8;
 $white: #fff;
 $lighterBlack:$black;
-$lightGray:$black;
+$lightGray:#1d1e1875;
 $darkGray:$black;
 
 // Font stacks
-@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Lora&family=Martel&family=Montserrat+Alternates&family=Prompt&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Merriweather+Sans&family=Merriweather:wght@300;400&display=swap');
-$lora: 'Lora', 'Alegreya', 'Martel',serif;
-$prompt: 'Montserrat Alternates', 'Prompt', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300;400;500&family=Alegreya:wght@400;500;600&family=Open+Sans&family=Playfair+Display:wght@400;600;700;800&family=Raleway:wght@400;500;600;700;800&display=swap');
+$openSans: 'Open Sans', sans-serif;
+$playFair: 'Alegreya','Playfair Display', serif;
+$raleWay: 'Alegreya Sans','Raleway', sans-serif; 
 
 // Mobile breakpoints
 @mixin mobile {

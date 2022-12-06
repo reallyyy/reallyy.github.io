@@ -2,25 +2,20 @@
 layout: default
 title: Home
 ---
-
 <div class="posts">
-  <div class = "content">
-  {% for post in site.posts %}
+  {% for post in paginator.posts %}
     <article class="post">
-
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
+      <a href="{{ site.baseurl }}{{ post.url }}">
+        <h1>{{ post.title }}</h1>
+        <div class="post_date">{{ post.date | date: "%B %e, %Y" }}</div>
+      </a>
       <div class="entry">
-        {{ post.excerpt }}
-      </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+        <p>{{ post.excerpt }}</p>
+    </div>
+    <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
     </article>
   {% endfor %}
-  </div>
 </div>
-
-
   <!-- pagination -->
   {% if paginator.total_pages > 1 %}
   <div class="pagination">

@@ -1,10 +1,17 @@
 ---
 layout: post
 title: Finding my galway girl ?
----
-Tôi vội vã chạy vào nhà hàng vì đã trễ giờ hẹn. Anh đang thảnh thơi ngồi ở quầy đợi tôi, mắt chăm chú nhìn điện thoại, chỉ khi tôi đến gần mới ngẩng đầu lên. Tôi nhào tới hôn anh một cái rồi ngồi vào ghế bên cạnh, chỉ tủm tỉm cười khi anh giả vờ bất ngờ vì tôi dạn dĩ đến vậy trước mặt bao nhiêu thực khách và nhân viên phục vụ xung quanh. Tôi đã đợi cơ hội này lâu lắm rồi, thật may là có thể khiến anh mất cảnh giác một cách trôi chảy đến thế.
+categories: [Miscellaneous, Jekyll]
+excerpt: <p> hai chiếc pizza, hai ly soda chanh, và hai món tráng miệng. Đã lâu rồi tôi mong nhớ hương vị của châu Âu nên bữa tối tràn ngập phô mai và thịt hun khói ấy tôi ăn vô cùng ngon lành. Tôi với anh nói chuyện dăm ba câu, chen vào nhiều khoảng im lặng không quá gượng gạo. Một lúc nào đó anh choàng tay qua eo tôi rồi kéo tôi lại gần, tôi sẽ trộm hôn lên má anh rồi giả bộ chẳng có chuyện gì vừa xảy ra mà ăn tiếp.</p>
 
-Chúng tôi gọi hai món khai vị, hai chiếc pizza, hai ly soda chanh, và hai món tráng miệng. Đã lâu rồi tôi mong nhớ hương vị của châu Âu nên bữa tối tràn ngập phô mai và thịt hun khói ấy tôi ăn vô cùng ngon lành. Tôi với anh nói chuyện dăm ba câu, chen vào nhiều khoảng im lặng không quá gượng gạo. Một lúc nào đó anh choàng tay qua eo tôi rồi kéo tôi lại gần, tôi sẽ trộm hôn lên má anh rồi giả bộ chẳng có chuyện gì vừa xảy ra mà ăn tiếp.
+---
+## Tôi vội vã chạy vào nhà hàng vì đã trễ giờ hẹn. 
+Anh đang thảnh thơi ngồi ở quầy đợi tôi, mắt chăm chú nhìn điện thoại, chỉ khi tôi đến gần mới ngẩng đầu lên. 
+#### chỉ tủm tỉm cười khi anh giả vờ bất ngờ vì tôi dạn dĩ đến vậy trước mặt bao nhiêu thực khách và nhân viên phục vụ xung qua
+nh. Tôi đã đợi cơ hội này lâu lắm rồi, thật may là có thể khiến anh mất cảnh giác một cách trôi chảy đến thế.
+
+### Chúng tôi gọi hai món khai vị, 
+hai chiếc pizza, hai ly soda chanh, và hai món tráng miệng. Đã lâu rồi tôi mong nhớ hương vị của châu Âu nên bữa tối tràn ngập phô mai và thịt hun khói ấy tôi ăn vô cùng ngon lành. Tôi với anh nói chuyện dăm ba câu, chen vào nhiều khoảng im lặng không quá gượng gạo. Một lúc nào đó anh choàng tay qua eo tôi rồi kéo tôi lại gần, tôi sẽ trộm hôn lên má anh rồi giả bộ chẳng có chuyện gì vừa xảy ra mà ăn tiếp.
 
 Tôi đóng quyển sách lại khi nhận thấy anh lại gần. Anh thả mình xuống chiếc ghế bên cạnh rồi xẹp xuống như quả bóng bị xì hơi, miệng lầm bầm là buồn ngủ quá rồi kêu tôi gọi món. Hôm ấy chúng tôi ăn đồ Nhật. Đây là nhà hàng yêu thích của tôi, vì vậy tôi chỉ dẫn những người mình yêu quý đến, không thể giới thiệu bừa. Lần đầu tôi dẫn anh đến đã vô cùng để ý phản ứng của anh, thấy anh thích không khí ở đây thì mới yên tâm vùi đầu vào ăn.
 

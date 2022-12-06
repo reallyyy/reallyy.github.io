@@ -1,5 +1,6 @@
 ---
 layout: default
+type: post
 ---
 
 <article class="post">
@@ -11,7 +12,31 @@ layout: default
         <h1>{{page.title}}</h1>
         {{ content }}
         <div class="date">
-          Written on {{ page.date | date: "%B %e, %Y" }}
+          <div>
+            Written on {{ page.date | date: "%B %e, %Y" }}<br>
+            {% if page.last_modified_at %}
+            <div datetime="{{ page.last_modified_at | date_to_xmlschema }}">(Updated: {{ page.last_modified_at | date: "%b %-d, %Y" }})</div>
+            {% endif %}
+          
+            {% if post %}
+              {% assign categories = post.categories %}
+            {% else %}
+              {% assign categories = page.categories %}
+            {% endif %}
+
+            {%if categories =="" %}
+            Tags:&nbsp;
+            {% for category in categories %}
+              <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
+              {% unless forloop.last %},&nbsp;{% endunless %}
+            {% endfor %}
+            {% endif %}
+          </div>
+
+
+
+
+          
         </div>
       </div>
     </div>

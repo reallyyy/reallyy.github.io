@@ -26,7 +26,6 @@
   <body>
     <div class="wrapper-masthead">
       <div class="container">
-        <!-- <header class="masthead clearfix"> -->
           <div class ="masthead">
             <div class="bg-image"></div>
             <div class="site-description-wrapper"><!-- The floating word on the background -->
@@ -50,21 +49,20 @@
       </div>
     </div>
 
+     {% unless page.title == "404 - Page not found" %} <!--remove footer and content for the 404 page -->
     <div id="main" role="main" class="container">
       {{ content }}
     </div>
-    
     <div class="wrapper-footer">
       <div class="container">
         <footer class="footer">
-          {% include svg-icons.html %}
           <button class="scrollToTopBtn">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="48" viewBox="0 0 24 24" style="fill: rgb(255, 255, 255);transform: ;msFilter:;"><path d="M6 4h12v2H6zm5 10v6h2v-6h5l-6-6-6 6z"></path></svg>
           </button>
         </footer>
       </div>
     </div>
-
+    {% endunless %}
     
     <!-- Java Script
    ================================================== -->

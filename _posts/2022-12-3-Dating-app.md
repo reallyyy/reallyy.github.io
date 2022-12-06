@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Is dating app the right answer ?
+exceprt: Love is complicated
 ---
 
 - The bussiness side => The algo used, created
