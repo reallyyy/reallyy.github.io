@@ -2,22 +2,26 @@
 //
 // VARIABLES
 //
-
 // Colors
-$blue: #4183C4;
+$pastelOrange: #f4e7d1;
+$pastelBlue:#AEC6CF;
+$red:#D72638;
 
 // Grays
-$black: #000;
-$darkerGray: #222;
-$darkGray: #333;
-$gray: #666;
-$lightGray: #eee;
+$black: #1D1E18;
+$oxfordBlue:#1D1E18;
+$lighterBlack:$black;
+$gray:#000022d8;
 $white: #fff;
+$lighterBlack:$black;
+$lightGray:$black;
+$darkGray:$black;
 
 // Font stacks
-$helvetica: Helvetica, Arial, sans-serif;
-$helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$georgia: Georgia, serif;
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Lora&family=Martel&family=Montserrat+Alternates&family=Prompt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Merriweather+Sans&family=Merriweather:wght@300;400&display=swap');
+$lora: 'Lora', 'Alegreya', 'Martel',serif;
+$prompt: 'Montserrat Alternates', 'Prompt', sans-serif;
 
 // Mobile breakpoints
 @mixin mobile {
@@ -25,3 +29,4 @@ $georgia: Georgia, serif;
     @content;
   }
 }
+

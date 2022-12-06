@@ -5,8 +5,9 @@
 // IMPORTS
 //
 
-@import "reset";
 @import "variables";
+@import "reset";
+
 // Syntax highlighting @import is at the bottom of this file
 
 /**************/
@@ -18,9 +19,10 @@ html {
 }
 
 body {
-	background: $white;
-  font: 18px/1.4 $helvetica;
-  color: $darkGray;
+	background: $pastelOrange;
+  font: 16px/1.4 $prompt;
+  color: $oxfordBlue;
+  //overflow-x: hidden; 
 }
 
 .container {
@@ -30,8 +32,8 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
-  color: $darkerGray;
+  font-family: $lora;
+  color: $oxfordBlue;
   font-weight: bold;
 
   line-height: 1.7;
@@ -64,15 +66,15 @@ h4 {
 }
 
 p {
-  margin: 15px 0;
+  margin: 1em 0 0;
 }
 
 a {
-  color: $blue;
+  color: $pastelBlue;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    color: $pastelBlue;
   }
 }
 
@@ -116,7 +118,7 @@ img {
 
 .date {
   font-style: italic;
-  color: $gray;
+  color: $lighterBlack;
 }
 
 // Specify the color of the selection
@@ -163,17 +165,18 @@ img {
   margin: 0 auto;
   width: 100%;
   @media screen and (min-width: 46em){
-    display: flex
+    display: flex;
+    overflow:hidden;
   }
 }
 
 .bg-image{
-  // background-blend-mode: darken;
   aspect-ratio: 16/9;
-  width: 100vw;
+  width: 100%;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  max-width: none;
   @media screen and (min-width: 46em){
     min-height: 100vh;
     background-attachment: fixed;
@@ -209,43 +212,40 @@ img {
     box-sizing: inherit;
     text-align: center;
     line-height: 1.4;
-    color: #000000;
+    a{
+      color:$black;
+    }
     font-size: 18px;
     font-size: 1.125rem;
-    font-family: "Alegreya",serif;
+    font-family: $lora;
     font-style: normal;
     font-weight: 400;
     margin: 0;
     margin: 20px;
+    transition: font-size 0.5s;
   }
 
   @media screen and (min-width: 46em) {
     font-size: 32px;
-    color: #e8e9ea;
+    font-size: 2rem;
+    a{
+      color:$white;
+    }
     }
     @media screen and (min-width:58em){
     font-size:47.12px;
+    font-size: 2.945rem;
     color: #e8e9ea;
     }
 }
-  // letter-spacing: calc(8px +1.25vw + 1.25vh)/40;
-  // font-family: $helveticaNeue;
-  // font-weight: 300;
-  // font-size: calc(8px + 1.25vw + 1.25vh);
-  // color: #ddd;
-  // @include mobile {
-  //   margin: 3px 0;
-  //   float: none;
-  //   display: block;
-  //   margin: 0 auto;
 
 nav {
   position: absolute;
   top: 8px;
   right: 16px;
   font-size: 18px;
-  font-family: $helveticaNeue;
-
+  font-family: $lora;
+  
   @include mobile {
     float: none;
     margin-top: 9px;
@@ -255,14 +255,14 @@ nav {
 
   a {
     margin-left: 20px;
-    color: $darkGray;
+    color: $white;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
 
     @include mobile {
       margin: 0 10px;
-      color: $blue;
+      color: $white;
     }
   }
 }
@@ -270,6 +270,23 @@ nav {
 //
 // .main
 //
+.wrapper_content{
+  display:flex;
+  justify-content: center;
+}
+.content{
+  width: 90%;
+  margin: auto;
+  text-align: justify;
+  p{
+    padding-bottom: 1em;
+    border-bottom: 0.25px solid $gray;
+  }
+  @media screen and (min-width: 57.5em) {
+    width:46em;
+    }
+}
+  
 
 .posts > .post {
   padding-bottom: 2em;
@@ -342,7 +359,68 @@ footer {
   opacity: 1;
   transform: translateY(0);
 }
+//Search
+#search-container {
+  text-align: center;
+}
 
+#search-input {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 18px;
+  background-color: #fff3ff;
+}
+
+.share-box {
+  font-weight: bold;
+  color: #222;
+}
+// pullQuote
+span[data-pullquote] {
+  display: block;
+
+  @include mobile {
+    display: none;
+  }
+}
+
+span[data-pullquote]:before {
+  content: attr(data-pullquote);
+  float: right;
+  width: 200px;
+  margin: 0 0 0.5em 30px;
+  padding: 0 -5% 0 0;
+  font-size: 1.3em;
+  font-style: italic;
+  color: green;
+  text-align: center;
+}
+//Pagination
+
+.pagination a, .pagination span {
+  padding: 7px 18px;
+  border: 1px solid #eee;
+  margin-left: -2px;
+  margin-right: -2px;
+  background-color: #ffffff;
+  display: inline-block;
+}
+
+.pagination a {    
+  &:hover {
+      background-color: #f1f1f1;
+      color: #333;
+  }
+}
+
+.pagination {
+  text-align: center;
+}
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";

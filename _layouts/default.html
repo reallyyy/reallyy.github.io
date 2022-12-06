@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+    <title>
+      {% if page.title %}{{ page.title }} – {% endif %}{{ site.name }}
+    </title>
 
     {% include meta.html %}
 
@@ -28,12 +30,21 @@
           <div class ="masthead">
             <div class="bg-image"></div>
             <div class="site-description-wrapper"><!-- The floating word on the background -->
-                <p class="site-description">Time is an illusion that helps things make sense.<br>
-                  So we are always living in the present tense</p>
+                <p class="site-description">
+                  <a href="{{ site.baseurl }}">
+                    {% if page.title == "Home"%}Time is an illusion that helps things make sense <br> 
+                    We are always living in the present tense
+                    {% else %}
+                    {{page.title}}
+                    {% endif %}
+                  </a>
+                </p>
             </div>
             <nav> <!-- Navigation bar -->
-              <a href="{{ site.baseurl }}/">Blog</a>
+              <a href="{{ site.baseurl }}/">Home</a>
               <a href="{{ site.baseurl }}/about">About</a>
+              <a href="{{ site.baseurl }}/search">Search</a>
+              <a href="{{ site.baseurl }}/archive">Archive</a>
             </nav>
           </div>
       </div>
@@ -42,7 +53,7 @@
     <div id="main" role="main" class="container">
       {{ content }}
     </div>
-
+    
     <div class="wrapper-footer">
       <div class="container">
         <footer class="footer">
