@@ -46,7 +46,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 36px;
   font-family: $playFair;
   a {
     color: inherit;
@@ -303,9 +303,10 @@ nav {
 .post {
   width: 90%;
   margin: auto;
-  text-align: justify;
+  text-align: left;
   @media screen and (min-width: 57.5em) {
     width:46em;
+    text-align: justify;
     }
   blockquote {
     margin: 1.8em .8em;

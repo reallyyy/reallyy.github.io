@@ -10,7 +10,6 @@
     <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
@@ -24,6 +23,7 @@
   <body>
     <div class="wrapper-masthead">
       <div class="container">
+        {% unless page.layout == "search"%}
           <div class ="masthead">
             <div class="bg-image"></div>
             <div class="site-description-wrapper"><!-- The floating word on the background -->
@@ -37,6 +37,7 @@
                   </a>
                 </p>
             </div>
+        
             <nav> <!-- Navigation bar -->
               <a href="{{ site.baseurl }}/">Home</a>
               <a href="{{ site.baseurl }}/about">About</a>
@@ -44,6 +45,7 @@
               <a href="{{ site.baseurl }}/archive">Archive</a>
             </nav>
           </div>
+        {% endunless %}
       </div>
     </div>
 
