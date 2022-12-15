@@ -5,8 +5,8 @@ categories: [FrontEnd, Jekyll, Finance]
 excerpt: <p>Đôi khi một vấn đề tưởng chừng như đơn giản nhưng để giải quyết một cách hoàn toàn trọn vẹn lại thực sự khá là khó. Đây có lẽ là điều mình học nhiều nhất khi bắt đầu hành trình code cái blog này của mình.</p>
 
 ---
-## Đôi khi một vấn đề tưởng chừng như đơn giản nhưng để giải quyết một cách hoàn toàn trọn vẹn lại thực sự khá là khó, đây là điều mình học được khi bắt đầu hành trình code cái blog này của mình. 
-Trong bài này, mình sẽ lấy ví dụ đơn giản là mối quan hệ đầy sóng gió của mình với cái cái site description (mô tả trang) ở trên cùng mỗi trang. Với một cái ý tưởng ban đầu chỉ là một cái dòng chữ màu trắng bay lơ lửng trên 1 cái ảnh nền để làm tiêu đề. Ý tưởng thì là thế nhưng mà thực hiện nó lại phức tạp hơn mình nghĩ khá là nhiều, đây là một câu truyện trải dài từ việc học CSS, HTML cơ bản đến cũng tìm hiểu thêm về thế giới UI, UX, thiết kế.
+## Đôi khi một vấn đề tưởng chừng như đơn giản nhưng để giải quyết một cách hoàn toàn trọn vẹn lại thực sự khá là khó.
+Đây là điều mình học được khi bắt đầu hành trình code cái blog này của mình.Trong bài này, mình sẽ lấy ví dụ đơn giản là mối quan hệ đầy sóng gió của mình với cái cái site description (mô tả trang) ở trên cùng mỗi trang. Với một cái ý tưởng ban đầu chỉ là một cái dòng chữ màu trắng bay lơ lửng trên 1 cái ảnh nền để làm tiêu đề. Ý tưởng thì là thế nhưng mà thực hiện nó lại phức tạp hơn mình nghĩ khá là nhiều, đây là một câu truyện trải dài từ việc học CSS, HTML cơ bản đến cũng tìm hiểu thêm về thế giới UI, UX, thiết kế.
 ## Lúc đầu do mới học, mình chỉ code trên máy tính nên mình cũng chủ quan không nghĩ đến trường hợp support cho các cỡ màn hình khác. 
 Do đó, sau khi chọn được cỡ font vị trí đặt chữ khá ưng ý, minh coi đó là xong. Tuy nhiên đến lúc nghĩ lại, mình cũng sẽ phải xem nó trên điện thoại, mở ra thấy nó xấu lại lủi hủi ngồi code thêm 1 đoạn. 
 Phải xét 3 - 4 trường hợp cho các loại màn khác nhau, cỡ chữ khác nhau. Lúc này mình đứng giữa 3 option
