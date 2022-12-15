@@ -1,29 +1,15 @@
 ---
-layout: page
+layout: about
 title: About
 permalink: /about/
 ---
+I am a university student who love learning about stuffs. This is a blog where I write about a lot of unrelated stuffs for my own collection to pratice my English writing skill. Topic that may be covered:
+- Biology/healthy/medicine (currently the weakest area)
+- Random romantic stories
+- IT / Design
+- Data Analytics + Stastics (I will mostly write articles as a way for me to apply the freyman method in learning)
+- Japanese
+- Data visulizations
+- Game theory
 
-[Reverie](https://github.com/amitmerchant1990/reverie) is a Jekyll theme which is simple and opinionated. It's actually a fork of [jekyll-now](https://github.com/barryclark/jekyll-now) with some additional features and personal touches which I've implemented to suit my needs for [my blog](https://www.amitmerchant.com).
-
-This is a plug-and-play Jekyll theme which you can use on GitHub Pages without even setting up a local environment.
-
-## Features
-
-- Command-line free fork-first workflow, using GitHub.com to create, customize and post to your blog
-- Fully responsive and mobile optimized base theme
-- Sass/Coffeescript support using Jekyll 2.0
-- Free hosting on your GitHub Pages user site
-- All the SEO goodies comes in-built
-- Markdown blogging
-- Syntax highlighting using Pygments
-    - [Dracula syntax theme](https://draculatheme.com/) included
-- Disqus commenting
-- Google Analytics integration
-- Fuzzy search across blog posts
-- Pagination of posts works out-of-the-box.
-- Categorize posts out-of-the box
-- RSS Feed
-- In-built sitemap
-
-Learn more about it [here](https://github.com/amitmerchant1990/reverie) on how to get started.
+You can find out more about me here:<a href="https://youtube.com/{{ site.footer-links.youtube }}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="svg-icon youtube"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a><a href="https://github.com/{{ site.footer-links.github }}"><i class="svg-icon github"></i></a>
