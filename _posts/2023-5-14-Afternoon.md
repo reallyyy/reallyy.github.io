@@ -10,7 +10,7 @@ It was a saturday evening, we were outside, going around. I was sitting on a swi
 Q pulled out her phone and showed me her screen. “Hey have you seen this scene” 
 ![An image]({{ site.baseurl }}/images/343421300_1168254530511912_4747692386438143376_n.jpg)
 “Yeah I guess, seems familiar, I am not sure I have heard it or not. Lately, sometimes I have seen things in movies happening in my life. I am not sure if it’s a good thing or not though. 
-You know where this scene comes from”
+Do you know where this scene comes from>”
 “The perks of being a wallflower, there's even a separate novel or something. If you were the main character, what would be your answer?” Q seemed to be thinking of something. It is at moments like these, that I am not sure what’s on her mind the most.
 “I am not too sure.I guess I would say: ‘maybe we ain't that special after all’”
 “When was the last time you were emotionally connected to someone?”
@@ -21,13 +21,12 @@ You know where this scene comes from”
 “I don’t understand”
 “Was there something unclear?”
 “Noo I understand every word, but I just don’t understand them as a whole.”
-“No way, have you dated before?” she should have known it by now
+“No way, have you dated before?” she should have known it all by now, I sighed
 “I meant I have, but that doesn’t mean I have to be emotionally connected to them right?”
 “So it’s a no?”
 “I don’t know. For some reason, everytime I date someone, I always feel like I have to put up a show, a show of being a good boyfriend, someone my girlfriend deserves, and that she hasn't made the wrong choice of choosing someone like me. Like everything after a while, I will get tired, afraid of revealing the real actor behind the curtain, I will just choose to end the relationship”
 “‘I love you,’ ain't that the worst thing you ever heard?”
-“It’s sad, isn’t it?”
-“I don’t know”
+“It’s sad, isn’t it?. They are loving an actor, not me.”
 “I think you don’t get it.” Q said slowly. She paused before continuing “I think you are that guy. The guys who think whoever loves a jerk like him is clearly not worth his time, cause how can they?, like there must be something wrong with them. And that makes the girl feel so bad, just because she likes him?”
 “Yeah maybe, maybe I am just empty. When will it be my turn to not feel empty like this?” I winned. I couldn’t recall how many times I have asked her that
 “Maybe, the emptiness won’t go away” she said softly
